@@ -14,7 +14,7 @@
             theme: {
                 extend: {
                     colors: {
-                        primaryCrimson: '#FF4240',
+                        primary: '#FF4240',
                         secondary: '#1313187d',
                     }
                 }
@@ -41,7 +41,7 @@
     <header class="max-w-[1170px] mx-auto px-10 mx-5 ">
         <nav></nav>
         <!-- -Carasoul Banner Section -->
-        <section class="mt-7 lg:mt-12 mb-4 lg:mb-24 max-h-52 md:max-h-full lg:max-h-[550px] rounded-2xl">
+        <section class="mt-7 lg:mt-12  max-h-52 md:max-h-full lg:max-h-[550px] rounded-2xl">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full max-h-52 md:max-h-full lg:max-h-[550px]">
                     <img src="Images/1.png" class="w-full" />
@@ -71,19 +71,53 @@
 
 
     <!-- --------------------------------------------Main------------------------------------------- -->
-    <main class="max-w-[1170px] mx-auto px-10 mx-5"></main>
-    <!-- -------------------------------------------Footer------------------------------------------- -->
-    <!--Proffesional Hockey and Progress section -->
-    <section class="Repetable-Heading p-6 lg:p-8 text-center border-y border-dashed">
+    <main class="max-w-[1170px] mx-auto px-10 mx-5">
+        <!--Proffesional Hockey section -->
         <!-- Repetable Heading Start -->
-        <p class="text-lg lg:text-4xl font-extrabold">Professional Hockeys Club</p>
-        <p class="max-w-[602px] mx-auto  text-secondary mt-4 lg:mt-6">Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.
-            Animi,
-            voluptatum?
-        </p>
+        <div class=" p-6 lg:p-8 text-center border-y border-dashed mt-10 lg:mt-24 mb-6 lg:mb-12">
+            <p class="text-lg lg:text-4xl font-extrabold">Professional Hockeys Club</p>
+            <p class="max-w-[602px] mx-auto  text-secondary mt-4 lg:mt-6">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit.
+                Animi,
+                voluptatum?
+            </p>
+        </div>
         <!-- Repetable Heading End -->
-    </section>
+        <!-- Progress section -->
+        <section class="mx-9 grid justify-around grid-cols-1 lg:grid-cols-4">
+            <!-- progress 1 -->
+            <div class="text-center mb-6 lg:mb-0">
+                <div class="radial-progress mb-6 text-primary mx-auto" style="--value:87;" role="progressbar">87%</div>
+                <p class="text-xl font-semibold">Prayer Facility</p>
+                <p class="text-secondary font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+                    eos!</p>
+            </div>
+            <!-- progress 2 -->
+            <div class="text-center mb-6 lg:mb-0">
+                <div class="radial-progress mb-6 text-green-400 mx-auto" style="--value:95;" role="progressbar">95%
+                </div>
+                <p class="text-xl font-semibold">Experienced Coach</p>
+                <p class="text-secondary font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+                    eos!</p>
+            </div>
+            <!-- progress 3 -->
+            <div class="text-center mb-6 lg:mb-0">
+                <div class="radial-progress mb-6 text-warning mx-auto" style="--value:90;" role="progressbar">90%</div>
+                <p class="text-xl font-semibold">Senior Player</p>
+                <p class="text-secondary font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+                    eos!</p>
+            </div>
+            <!-- progress 4 -->
+            <div class="text-center">
+                <div class="radial-progress mb-6 text-blue-400 mx-auto" style="--value:80;" role="progressbar">80%</div>
+                <p class="text-xl font-semibold">Training Ground</p>
+                <p class="text-secondary font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+                    eos!</p>
+            </div>
+        </section>
+
+    </main>
+    <!-- -------------------------------------------Footer------------------------------------------- -->
 
     <footer class="bg-black py-10 lg:py-24">
         <section class="footer-container max-w-[1170px] mx-auto px-10 mx-5"></section>
