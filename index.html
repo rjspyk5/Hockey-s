@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
+                        primaryCrimson: '##FF4240',
                     }
                 }
             }
@@ -37,13 +37,45 @@
 
 <body class="font-primary font-medium">
     <!-- -----------------------------------------Header-------------------------------------- -->
-    <header class="max-w-[1170px] mx-auto">
+    <header class="max-w-[1170px] mx-auto px-10 mx-5 ">
         <nav></nav>
+        <!-- -Carasoul Banner Section -->
+        <section class="mt-7 lg:mt-12 mb-4 lg:mb-24 max-h-52 md:max-h-full lg:max-h-[550px] rounded-2xl">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full max-h-52 md:max-h-full lg:max-h-[550px]">
+                    <img src="Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 bottom-1 lg:bottom-4 ">
+                        <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+
+                </div>
+                <div id="slide2" class="carousel-item relative w-full max-h-52 md:max-h-full lg:max-h-[550px]">
+                    <img src="Images/2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 bottom-1 lg:bottom-4">
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full max-h-52 md:max-h-full lg:max-h-[550px]">
+                    <img src="Images/3.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 bottom-1 lg:bottom-4">
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
     </header>-
     <!-- --------------------------------------------Main------------------------------------------- -->
-    <main class="max-w-[1170px] mx-auto"></main>
+    <main class="max-w-[1170px] mx-auto px-10 mx-5"></main>
     <!-- -------------------------------------------Footer------------------------------------------- -->
-    <footer></footer>
+    <footer class="bg-black py-10 lg:py-24">
+        <section class="footer-container max-w-[1170px] mx-auto px-10 mx-5"></section>
+    </footer>
 
 </body>
 
