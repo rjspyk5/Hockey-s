@@ -8,10 +8,42 @@
     <!-- Tailwind and daisy ui cdn added -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <!-- Tailwind Custom color  -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google font Manrope cdn added -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Internal CSS -->
+    <style>
+        .font-primary {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
 </head>
 
-<body>
+<!-- -----------------------------------------------Body-------------------------------------- -->
+
+<body class="font-primary font-medium">
+    <!-- -----------------------------------------Header-------------------------------------- -->
+    <header class="max-w-[1170px] mx-auto">
+        <nav></nav>
+    </header>-
+    <!-- --------------------------------------------Main------------------------------------------- -->
+    <main class="max-w-[1170px] mx-auto"></main>
+    <!-- -------------------------------------------Footer------------------------------------------- -->
+    <footer></footer>
 
 </body>
 
