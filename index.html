@@ -95,10 +95,12 @@
             <li><a>Contact</a></li>
           </ul>
         </div>
-        <div class="navbar-end lg:space-x-6">
-          <i
-            class="fa-solid fa-magnifying-glass text-[#89898B] hidden lg:block"
-          ></i>
+        <div class="navbar-end lg:space-x-6 5">
+          <button>
+            <i
+              class="fa-solid fa-magnifying-glass text-[#89898B] hidden lg:block hover:scale-110"
+            ></i>
+          </button>
 
           <button
             type="button"
@@ -113,10 +115,10 @@
       <section
         class="mt-7 lg:mt-12 max-h-52 md:max-h-full lg:max-h-[550px] rounded-2xl"
       >
-        <div class="carousel w-full">
+        <div class="carousel w-full relative">
           <div
             id="slide1"
-            class="carousel-item relative w-full max-h-52 md:max-h-full lg:max-h-[550px]"
+            class="carousel-item w-full max-h-52 md:max-h-full lg:max-h-[550px]"
           >
             <img src="Images/1.png" class="w-full" />
             <div
@@ -152,8 +154,18 @@
           </div>
         </div>
       </section>
+      <div
+        class="bg-black lg:p-8 p-4 mt-4 rounded-2xl lg:max-w-[570px] static lg:absolute lg:top-[470px] lg:right-[7%] xl:right-[14%]"
+      >
+        <h6 class="lg:text-2xl font-extrabold text-lg text-white">
+          Meet all the heroes from the field
+        </h6>
+        <p class="text-[#ffffff67] mt-2 lg:mt-4">
+          Come on and join with our team,and oviously meet our heros who are
+          playing on national team
+        </p>
+      </div>
     </header>
-
     <!-- --------------------------------------------Main------------------------------------------- -->
     <main class="max-w-[1170px] mx-auto px-10 mx-5">
       <!-- Progress section -->
@@ -182,7 +194,7 @@
           </div>
           <p class="text-xl font-semibold">Prayer Facility</p>
           <p class="text-secondary font-normal">
-            Have Prayer room for prayer.And have a dedicated quiet place where
+            Have Prayer room for prayer and have a dedicated quiet place where
             players can take rest.
           </p>
         </div>
@@ -767,7 +779,7 @@
       </div>
       <!-- Repetable Heading End -->
       <section
-        class="flex flex-col lg:flex-row gap-6 lg:gap-10 shadow-md p-6 lg:p-8 items-center"
+        class="flex flex-col lg:flex-row gap-6 lg:gap-10 shadow-md rounded-md p-6 lg:p-8 items-center"
       >
         <div class="img-container">
           <img
@@ -785,7 +797,9 @@
               What types of hockey equipment do I need?
             </div>
             <div class="collapse-content">
-              <p class="text-secondary">Here most frequently asked question</p>
+              <p class="text-secondary">
+                You'll need some basic thing like hocky bat,jersey and shoes.
+              </p>
             </div>
           </div>
           <!-- Faq 2 -->
